@@ -1,0 +1,66 @@
+body { 
+    background-color: white;
+}
+
+h1 { 
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    text-decoration: bold;
+    color: black; 
+} 
+
+h2 { 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: bold;
+    color: black; 
+} 
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+    color: black; 
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+    list-style-position: inside;
+    color: black; 
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+    list-style-position: inside;
+    color: black; 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#center {
+    text-align: center;
+}
+
+#emoji {
+    z-index: -1;
+    position: fixed;
+}
+
+#main {
+    z-index: 1;
+    position: relative;
+}
+

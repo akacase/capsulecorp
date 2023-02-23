@@ -1,0 +1,9 @@
+10   R4   (1w)
+12   R3   (1w)
+12   R2   (1w)
+18   R1   (1w)
+8   R1   (1.25w)
+2   R1 1x2   (2w)
+2   NumpadEnter   (2w)
+
+this describes the amount of keys we need from wasd, this doesn't include the taller thumb clusters 

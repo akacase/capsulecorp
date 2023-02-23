@@ -1,0 +1,107 @@
+body { 
+    background-color: white;
+}
+
+h1 { 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: bold;
+    color: black; 
+} 
+
+h2 { 
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: bold;
+    color: black; 
+} 
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+    color: black; 
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+    list-style-position: inside;
+    color: black; 
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+    list-style-position: inside;
+    color: black; 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px 1em;
+}
+
+pre.tiny {
+    font-size: 4pt;
+}
+
+pre.med {
+    font-size: 8pt;
+}
+
+#center {
+    z-index: 1;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: bold;
+    text-align: center;
+    list-style-position: inside;
+    position: relative;
+    color: black; 
+}
+
+#asm {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    list-style-position: inside;
+    color: black; 
+    text-align: center;
+    z-index: -1;
+    position: fixed;
+    /* center the element */
+    right: 0;
+    left: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    /* give it dimensions */
+    min-height: 10em;
+    width: 90%;
+    overflow: hidden;
+}
+
+#main {
+    position: relative;
+    z-index: 1;
+}
+
+#btm {
+     position: fixed;
+     bottom: 0;
+     right: 0;
+}
